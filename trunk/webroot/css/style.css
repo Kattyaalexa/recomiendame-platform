@@ -1,0 +1,309 @@
+body{
+	color: #666666;
+	font: 18px 'Qlassik Bold',Arial,Helvetica,sans-serif;	
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container_16 {
+	overflow: hidden;
+}
+
+#header{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#header #header_logo{
+	height: 70px;
+}
+
+#header #nav{
+	float: right;
+    font: 24px/33px 'Qlassik Bold',Arial,Helvetica,sans-serif;
+}
+
+#header #nav li {
+    float: right;
+    height: 38px;
+    margin-left: 10px;
+	margin-top: 24px;
+}
+
+#header #nav a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #79AB46;
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 17px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	font-weight: bold;
+}
+
+#header #nav a:hover{
+	background:#d5f3c0;
+	text-decoration: none;
+}
+
+#navbar{
+	background: url('../img/navbar_bg.gif') repeat-x scroll 0 100% #98C855;
+	margin-bottom: 25px;
+	height: 22px;
+	padding-top: 7px;
+	padding-bottom: 9px;
+}
+
+#navbar p{
+	color: #ffffff;
+}
+
+#content  #message{
+	background: url('../img/bg-aside-box.gif') no-repeat scroll 0 -54px #F5F5F5;
+    float: right;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+#content  #message span.positive	{
+	float: left;
+	height: 16px;
+	color: #709a3c;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 25px;
+	line-height: 1.25em;
+	margin: 7px 0 0 10px;
+	background: url(../img/icon_positive.png) no-repeat left top;
+}
+#content  #message span.negative	{
+	float: left;
+	height: 16px;
+	color: #be2c0a;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 25px;
+	line-height: 1.25em;
+	margin: 7px 0 0 10px;
+	background: url(../img/icon_negative.png) no-repeat left top;
+}
+
+#content #content_header {
+	margin-bottom: 25px;
+}
+
+#content #content_header #section p{
+	float: left;
+	font-size: 50px;
+	color: #4D7D24;
+}
+
+#content #content_header #section_new{
+	background: url('../img/bg-aside-box.gif') no-repeat scroll 0 -54px #F5F5F5;
+    float: right;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 10px 17px 0 0;
+}
+
+#content #content_header #section_new a{
+	background: url('img/bg-aside-box.gif') no-repeat scroll 100% 100% transparent;
+	font-family: 'Qlassik Bold',Arial,Helvetica,sans-serif;
+    float: left;
+    line-height: 36px;
+    padding: 0 18px;
+	color: #709826;
+}
+
+#content .element{
+	border-top: 1px solid #36393D;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#content .element .book {
+	position: relative;
+}
+
+#content .element .title {
+	margin-bottom: 15px;
+}
+
+#content .element .title a{
+	color: #709826;
+}
+
+#content .element .author{
+	color: #356AA0;
+	margin-bottom: 15px;
+}
+
+#content .element .created{
+	color: #666666;
+}
+
+#content .element .opinion{
+	float: right;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+#content .element .opinion strong{
+	color: #FF7400;
+}
+
+#content .element .score{
+	background: url('../img/bg-vote-raiting.png') no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font: 20px/42px Arial,Helvetica,sans-serif;
+    height: 42px;
+    position: absolute;
+    right: -20px;
+    text-align: center;
+    top: -10px;
+    width: 42px;
+}
+
+#content .element a.edit{
+	background: url('../img/icon_edit.png') no-repeat scroll 0 0 transparent;
+    position: absolute;
+    top: 130px;
+	right: 88px;    
+    width: 20px;
+	height: 20px;
+}
+
+#content .element a.delete{
+	background: url('../img/icon_delete.png') no-repeat scroll 0 0 transparent;
+    position: absolute;
+	top: 130px;
+	right: -8px;
+    width: 20px;
+	height: 20px;
+}
+
+#content #pagin{
+	margin-top: 25px;
+	color: #4D7D24;
+	text-align: center;
+}
+
+#content .button{
+	background: url('../img/bg-btn.gif') no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: right;
+    font: 19px/32px 'Qlassik Bold',Arial,Helvetica,sans-serif;
+	margin-left: 5px;
+}
+
+#content .button span{
+	background: url('../img/bg-btn.gif') no-repeat scroll 100% -32px transparent;
+    display: block;
+    padding: 0 25px;
+}
+
+#content form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#content form input {
+    -moz-border-radius: 4px 4px 4px 4px;
+    background: url('../img/reply_deg.gif') repeat-x scroll center bottom #FFFFFF;
+    border: 1px solid #999999;
+    padding: 5px;
+    width: 550px;
+}
+
+#content form input:focus{
+	background: none repeat scroll 0 0 #EFFFE2;
+}
+
+#content form select {
+    -moz-border-radius: 4px 4px 4px 4px;
+    background: url('../img/reply_deg.gif') repeat-x scroll center bottom #FFFFFF;
+    border: 1px solid #999999;
+    padding: 5px;
+    width: 550px;
+}
+
+#content form textarea {
+    -moz-border-radius: 4px 4px 4px 4px;
+    background: url('../img/reply_deg.gif') repeat-x scroll center bottom #FFFFFF;
+    border: 1px solid #999999;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px;
+    width: 80%;
+}
+
+#content form textarea:focus {
+	background: none repeat scroll 0 0 #EFFFE2;
+}
+
+#content form .button {
+	float: left;
+    background: url('../img/btn_medium.png') no-repeat scroll center bottom transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    padding-top: 1px;
+    width: 88px;
+	margin-top: 25px;
+}
+
+#content form span.error{
+	color: #ff0000;
+	border: 1px dashed #ff0000;
+}
+
+#content form .submit{
+	clear: both;
+}
+
+#footer{
+	margin-top: 25px;
+	background: url('../img/footer_bg.gif') repeat-x scroll 0 100% transparent;
+	height: 40px;
+	padding-top: 6px; 
+	padding-bottom: 5px; 
+}
+
+#footer #footer_logo{
+	height: 38px;
+}
+
+#footer #sitemap {
+    float: right;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#footer #sitemap li {
+    float: right;
+}
+
+div.auto_complete    {
+    position         :absolute;
+    width            :250px;
+    background-color :white;
+    border           :1px solid #888;
+    margin           :0px;
+    padding          :0px;
+} 
+
+li.selected    { background-color: #ffc595; }
